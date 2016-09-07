@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main/Sidebar" transform="translate(-16.000000, -94.000000)" fill="#9CA8B4">
+            <g id="Sidebar">
+                <g id="nav_item" transform="translate(0.000000, 80.000000)">
+                    <path d="M26.3519669,25.7141378 L26.3519669,34 L34.6335404,34 L34.6335404,25.7141378 L26.3519669,25.7141378 L26.3519669,25.7141378 Z M16,34 L24.2815735,34 L24.2815735,25.7141378 L16,25.7141378 L16,34 L16,34 Z M16,23.6426722 L24.2815735,23.6426722 L24.2815735,15.3568099 L16,15.3568099 L16,23.6426722 Z M30.1407867,14 L24.2815735,19.8518902 L30.1407867,25.7141378 L36,19.8518902 L30.1407867,14 L30.1407867,14 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

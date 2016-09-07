@@ -1,0 +1,165 @@
+doctype
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width')
+    title PinERP
+    meta(name='description', content='')
+    meta(name='keywords', content='')
+    link(rel='shortcut icon' href='../favicon/fav.png' type='image/png')
+    link(rel='apple-touch-icon' href='../favicon/fav.png')
+    link(rel='stylesheet' href='../css/style.css') 
+  body
+    aside
+        .logo
+            img(src="../images/logo.svg" alt="logo")
+        nav
+            ul
+                li.dropdown
+                    input(type="checkbox" id="menu_dropdown")
+                    label(for="menu_dropdown") Основное
+                    ul
+                        li 
+                            a(href="#") Сотрудники
+                        li 
+                            a(href="#") Роли
+                        li 
+                            a(href="#") Группы
+                        li.active
+                            a(href="#") Сообщения
+                        li 
+                            a(href="#") Логи
+                        li 
+                            a(href="#") Магазин модулей
+                        li 
+                            a(href="#") Настройки
+                li 
+                    a(href="#") PinPBX (управление ATC)
+                li 
+                    a(href="#") Оборудование
+    main
+        header
+            nav
+                ul
+                    li.tab.active
+                        a(href="#") ВСЕ СООБЩЕНИЯ
+                    li.tab
+                        a(href="#") ИСХОДЯЩИЕ
+                    li.tab
+                        a(href="#") ВХОДЯЩИЕ
+                    li.user
+                        a(href="#") 
+                            span Николай Метлюк
+                            img(src="../images/avatar.png")
+            form.search
+                input(type="text" name="search" placeholder="Поиск")
+        section.messages
+            .filter
+                a.btn(href="#") Создать сообщение
+                form
+                    .form-group
+                        label Фильтровать по
+                        select
+                            option Получателю
+                            option 1
+                    .form-group
+                        input(type="text" name="name" placeholder="Введите имя...")
+                    button.btn(type="sumbit") Применить
+            .messages__list
+                .dialog
+                    .message.message-out.message-new
+                        .avatar
+                            img(src="../images/avatar.png" logo="ava")
+                            .type
+                        .topic
+                            .name Николай Метлюк
+                            .attach
+                            .date 10 авг.  0:12
+                        .caption
+                            .text
+                                p Техническое задание для дизайнера интерфейсов
+                                span Доп фишки: просмтр статистики просмотров/голосования на этой же странице, Возомжность развернуть полный текст сообщения на этой же странице, 
+                            .extra
+                                .id #30000
+                                .icon
+                                    .reply
+                                    .answer 7
+                    .message.message-in.message-reply
+                        .avatar
+                            img(src="../images/avatar.png" logo="ava")
+                            .type
+                        .topic
+                            .name Николай Метлюк
+                            .attach
+                            .date 10 авг.  0:12
+                        .caption
+                            .text
+                                p Техническое задание для дизайнера интерфейсов
+                                span Доп фишки: просмтр статистики просмотров/голосования на этой же странице, Возомжность развернуть полный текст сообщения на этой же странице, 
+                            .extra
+                                .id #30000
+                                .icon
+                                    .reply
+                                    .answer 7
+                    .message.message-in.message-attach
+                        .avatar
+                            img(src="../images/avatar.png" logo="ava")
+                            .type
+                        .topic
+                            .name Николай Метлюк
+                            .attach
+                            .date 10 авг.  0:12
+                        .caption
+                            .text
+                                p Техническое задание для дизайнера интерфейсов
+                                span Доп фишки: просмтр статистики просмотров/голосования на этой же странице, Возомжность развернуть полный текст сообщения на этой же странице, 
+                            .extra
+                                .id #30000
+                                .icon
+                                    .reply
+                                    .answer 7
+                    .message.message-out.message-attach.message-reply.active.message-new
+                        .avatar
+                            img(src="../images/avatar.png" logo="ava")
+                            .type
+                        .topic
+                            .name Николай Метлюк
+                            .attach
+                            .date 10 авг.  0:12
+                        .caption
+                            .text
+                                p Техническое задание для дизайнера интерфейсов
+                                span Доп фишки: просмтр статистики просмотров/голосования на этой же странице, Возомжность развернуть полный текст сообщения на этой же странице, 
+                            .extra
+                                .id #30000
+                                .icon
+                                    .reply
+                                    .answer 7
+                    .loading
+                        .icon
+                            img(src="../images/loading_icon.svg" alt="loading")
+                .chat
+                    .heading
+                        h2 Корпоратив на природе лето `16 
+                        p Михаил Веселов, Николай Метлюк, Сергей Хильков, Константин Панькин, Игорь Вдовин, Александра, Матвеева, Лариса Анохина, Виктория Снегирева, Павел Курдаков
+                    .block
+                        .mess
+                            .img
+                                img(src="../images/avatar.png" logo="ava")
+                            .content
+                                .autor Николай Метлюк
+                                .text Миша, ты создал обычное текстовое сообщение, для того чтобы создть опрос, при создании нового сообщения выбери чекбокс «Опрос», тогда у всех появится возможность проголосовать за  понравившийся вариант )))
+                                span.eye 3
+                    .area
+                        .out
+                            span.one Николай Метлюк  
+                            span.two Михаил Веселов
+                        form
+                            textarea
+                            button.btn Отправить
+                            a(href="#")
+                                i.attach
+    script(type='text/javascript' src='../js/jquery.js')
+    script(type='text/javascript' src='../js/jquery.inputmask.js')
+    script(type='text/javascript' src='../js/app.js')

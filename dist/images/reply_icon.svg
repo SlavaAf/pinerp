@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Messages/message_item-in" transform="translate(-387.000000, -70.000000)">
+            <g id="message_item">
+                <g id="Group" transform="translate(387.000000, 70.000000)">
+                    <rect id="Rectangle-5" fill="#FF2600" x="0" y="0" width="32" height="24" rx="5"></rect>
+                    <path d="M15.6665244,8.33336494 L15.6665244,5 L9,11 L15.6665244,16.6000759 L15.6665244,12.7544325 C19.8999111,12.7544325 22.7910044,13.1244904 25,17 C25,17 23.46656,8.33336494 15.6665244,8.33336494 Z" id="ico_reply" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

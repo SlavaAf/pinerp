@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>PinERP</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="shortcut icon" href="../favicon/fav.png" type="image/png">
+    <link rel="apple-touch-icon" href="../favicon/fav.png">
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <aside>
+      <div class="logo"><img src="../images/logo.svg" alt="logo"></div>
+      <nav>
+        <ul>
+          <li class="dropdown">
+            <input type="checkbox" id="menu_dropdown">
+            <label for="menu_dropdown">Основное</label>
+            <ul>
+              <li> <a href="#">Сотрудники</a></li>
+              <li> <a href="#">Роли</a></li>
+              <li> <a href="#">Группы</a></li>
+              <li class="active"><a href="#">Сообщения</a></li>
+              <li> <a href="#">Логи</a></li>
+              <li> <a href="#">Магазин модулей</a></li>
+              <li> <a href="#">Настройки</a></li>
+            </ul>
+          </li>
+          <li> <a href="#">PinPBX (управление ATC)</a></li>
+          <li> <a href="#">Оборудование</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <main>
+      <header>
+        <nav>
+          <ul>
+            <li class="tab active"><a href="#">ВСЕ СООБЩЕНИЯ</a></li>
+            <li class="tab"><a href="#">ИСХОДЯЩИЕ</a></li>
+            <li class="tab"><a href="#">ВХОДЯЩИЕ</a></li>
+            <li class="user"><a href="#"> <span>Николай Метлюк</span><img src="../images/avatar.png"></a></li>
+          </ul>
+        </nav>
+        <form class="search">
+          <input type="text" name="search" placeholder="Поиск">
+        </form>
+      </header>
+      <section class="messages">
+        <div class="filter"><a class="btn" href="#">Создать сообщение</a>
+          <form>
+            <div class="form-group">
+              <label>Фильтровать по</label>
+              <select>
+                <option>Получателю</option>
+                <option>1</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Введите имя...">
+            </div>
+            <button class="btn" type="sumbit">Применить</button>
+          </form>
+        </div>
+        <div class="messages__list">
+          <div class="dialog">
+            <div class="message message-out message-new">
+              <div class="avatar"><img src="../images/avatar.png" logo="ava">
+                <div class="type"></div>
+              </div>
+              <div class="topic">
+                <div class="name">Николай Метлюк</div>
+                <div class="attach"></div>
+                <div class="date">10 авг.  0:12</div>
+              </div>
+              <div class="caption">
+                <div class="text">
+                  <p>Техническое задание для дизайнера интерфейсов</p><span>Доп фишки: просмтр статистики просмотров/голосования на этой же странице, Возомжность развернуть полный текст сообщения на этой же странице, </span>
+                </div>
+                <div class="extra">
+                  <div class="id">#30000</div>
+                  <div class="icon">
+                    <div class="reply"></div>
+                    <div class="answer">7</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="message message-in message-reply">
+              <div class="avatar"><img src="../images/avatar.png" logo="ava">
+                <div class="type"></div>
+              </div>
+              <div class="topic">
+                <div class="name">Николай Метлюк</div>
+                <div class="attach"></div>
+                <div class="date">10 авг.  0:12</div>
+              </div>
+              <div class="caption">
+                <div class="text">
+                  <p>Техническое задание для дизайнера интерфейсов</p><span>Доп фишки: просмтр статистики просмотров/голосования на этой же странице, Возомжность развернуть полный текст сообщения на этой же странице, </span>
+                </div>
+                <div class="extra">
+                  <div class="id">#30000</div>
+                  <div class="icon">
+                    <div class="reply"></div>
+                    <div class="answer">7</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="message message-in message-attach">
+              <div class="avatar"><img src="../images/avatar.png" logo="ava">
+                <div class="type"></div>
+              </div>
+              <div class="topic">
+                <div class="name">Николай Метлюк</div>
+                <div class="attach"></div>
+                <div class="date">10 авг.  0:12</div>
+              </div>
+              <div class="caption">
+                <div class="text">
+                  <p>Техническое задание для дизайнера интерфейсов</p><span>Доп фишки: просмтр статистики просмотров/голосования на этой же странице, Возомжность развернуть полный текст сообщения на этой же странице, </span>
+                </div>
+                <div class="extra">
+                  <div class="id">#30000</div>
+                  <div class="icon">
+                    <div class="reply"></div>
+                    <div class="answer">7</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="message message-out message-attach message-reply active message-new">
+              <div class="avatar"><img src="../images/avatar.png" logo="ava">
+                <div class="type"></div>
+              </div>
+              <div class="topic">
+                <div class="name">Николай Метлюк</div>
+                <div class="attach"></div>
+                <div class="date">10 авг.  0:12</div>
+              </div>
+              <div class="caption">
+                <div class="text">
+                  <p>Техническое задание для дизайнера интерфейсов</p><span>Доп фишки: просмтр статистики просмотров/голосования на этой же странице, Возомжность развернуть полный текст сообщения на этой же странице, </span>
+                </div>
+                <div class="extra">
+                  <div class="id">#30000</div>
+                  <div class="icon">
+                    <div class="reply"></div>
+                    <div class="answer">7</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="loading">
+              <div class="icon"><img src="../images/loading_icon.svg" alt="loading"></div>
+            </div>
+          </div>
+          <div class="chat">
+            <div class="heading">
+              <h2>Корпоратив на природе лето `16 </h2>
+              <p>Михаил Веселов, Николай Метлюк, Сергей Хильков, Константин Панькин, Игорь Вдовин, Александра, Матвеева, Лариса Анохина, Виктория Снегирева, Павел Курдаков</p>
+            </div>
+            <div class="block">
+              <div class="mess">
+                <div class="img"><img src="../images/avatar.png" logo="ava"></div>
+                <div class="content">
+                  <div class="autor">Николай Метлюк</div>
+                  <div class="text">Миша, ты создал обычное текстовое сообщение, для того чтобы создть опрос, при создании нового сообщения выбери чекбокс «Опрос», тогда у всех появится возможность проголосовать за  понравившийся вариант )))</div><span class="eye">3</span>
+                </div>
+              </div>
+            </div>
+            <div class="area">
+              <div class="out"><span class="one">Николай Метлюк  </span><span class="two">Михаил Веселов</span></div>
+              <form>
+                <textarea></textarea>
+                <button class="btn">Отправить</button><a href="#"><i class="attach"></i></a>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/jquery.inputmask.js"></script>
+    <script type="text/javascript" src="../js/app.js"></script>
+  </body>
+</html>

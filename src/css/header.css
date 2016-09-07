@@ -1,0 +1,107 @@
+header{
+	size: 100% calc(80px + 48px);
+	float: left;
+	position: relative;
+	min-height: 1px;
+	@media (width <= 768px){
+	}
+	@media (min-width: 768px) and (max-width: 1283px){
+	}
+	nav{
+		float: left;
+		size: 100% 80px;
+		border-bottom: 1px solid #CAD3DF;
+		ul{
+			list-style-type: none;
+			padding-left: 0;
+			margin: 0;
+			size: 100%;
+			padding: * 24px;
+			li{
+				float: left;
+				height: 100%;
+				display: block;
+				&.tab{
+					color: #374050;
+					text-transform: uppercase;
+					font-size: 1.4rem;
+				    display: flex;
+    				align-items: flex-end;
+    				margin-right: 24px;
+					a{
+						height: 48px;
+						position: relative;
+						/*transition: color 0.3s ease-in;*/
+					}
+					&.active{
+						color: #FF2600;
+						/*border-bottom: 3px solid #FF2600;*/
+						a::after{
+							content: "";
+							size: 100% 3px;
+							background-color: #FF2600; 
+							position: absolute;
+							bottom: 0;
+							left: 0;
+						}
+					}
+					&:hover{
+						color: #FF2600;
+						/*border-bottom: 3px solid #FF2600;*/
+						a::after{
+							content: "";
+							size: 100% 3px;
+							background-color: #FF2600; 
+							position: absolute;
+							bottom: 0;
+							left: 0;
+						}
+					}
+				}
+				&.user{
+					float: right;
+					/*height: 36px;*/
+				    display: flex;
+					align-items: center;
+					a{
+					    display: flex;
+    					align-items: center;
+					}
+					img{
+						max-width: 36px;
+						size: 36px auto;
+					}
+					span{
+						font-size: 1.6rem;
+						color: #374050;
+						margin-right: 8px;
+					}
+				}
+			}
+			&:after{
+				content: "";
+				display: block;
+				clear: both;
+			}
+		}
+	}
+	form{
+		float: left;
+		size: 100% 48px;
+		input{
+			size: 100%;
+			color: #9CA8B4;
+			font-size: 1.4rem;
+			background-position: 24px center;
+			background-repeat: no-repeat;
+			background-size: 24px;
+			background-image: url("../images/icon_search.svg");
+			padding-left: 64px;
+			border: none;
+			border-bottom: 1px solid #CAD3DF;
+			&:focus{
+				outline: none;
+			}
+		}
+	}
+}
